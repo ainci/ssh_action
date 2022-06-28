@@ -11,6 +11,6 @@ jobs:
     - name: executing remote ssh commands using ssh key
       uses: ./
       with:
-        hosts: 'gigant@104.248.252.162'
+        hosts: 'user@IP'
         privateKey: ${{ secrets.KEY }}
         command: ls -lah
