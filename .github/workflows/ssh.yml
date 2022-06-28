@@ -12,5 +12,5 @@ jobs:
       uses: ./
       with:
         hosts: 'user@IP'
-        privateKey: ${{ secrets.KEY }}
+        privateKey: ${{ secrets.xxxx }}
         command: ls -lah
